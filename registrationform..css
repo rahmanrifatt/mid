@@ -1,0 +1,362 @@
+*{
+    margin:0; 
+    padding:0;
+    box-sizing:border-box;   
+}
+body{
+    font-size:20px;
+    color:rgb(34, 33, 33);
+}
+/* header*/
+.header{
+    
+    background-color: rgb(32, 30, 30);
+    overflow:hidden;
+    padding: 10px;
+       
+}
+
+.header h2{
+    margin-left: 20%;
+    font-style: italic;
+    
+    margin-bottom: -5%;
+    color:rgb(234, 0, 255);
+
+}
+.header h3{
+    margin-left:10%;
+    font-style: oblique;
+    color:rgb(231, 223, 223);
+    
+
+}
+}
+/* menu*/
+.menu{
+    float: right;
+    width: 480px;
+    margin-bottom: -10px;
+}
+.menu ul{
+    list-style: none;
+    text-align: right;
+    margin-top:30px;
+}
+.menu ul li{
+    display:inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(222, 236, 236);
+    font-size:24px;
+    padding:10px 15px;
+    display:block;
+}
+.menu ul li a:hover{
+    background-color: tomato;
+    color: #fff;   
+}
+/*.catagory{
+    padding: 50px;
+    background-color: thistle;
+    border: 5px;
+    border-style: dotted;
+}
+*/
+
+    
+
+.regform p{
+    text-align: center;
+    margin-top: 0%;
+    background-color: rgb(178, 207, 231);
+    margin-bottom: 0%;
+    padding: 20px;
+    font-family: cursive;
+}
+
+.regform{
+    float: left;
+    
+    width: 100%;
+    margin-bottom: 0px;
+    background-color: gray;
+    
+}
+.regfoprm{
+    
+
+}
+.input1 h2{
+    color: rgb(31, 31, 28);
+    font-size: 30px;
+    margin-left: 10%;
+    font-family: cursive;
+    
+}
+.input1 input{
+    margin-left: 10%;
+    border-radius: 25px 10px;
+    padding: 1%;
+    width: 80%;
+    background-color:white;
+    border: 2;
+    border-color: turquoise;
+   
+    
+
+}
+.x {
+    color:rgb(17, 17, 16);
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.input2 h2{
+    color: rgb(29, 29, 27);
+    font-size: 30px;
+    margin-left: 10%;
+    font-family: cursive;
+    
+}
+.input2 input{
+    margin-left: 10%;
+    border-radius: 25px 10px;
+    padding: 1%;
+    width: 80%;
+    background-color:white;
+    border: 2;
+    border-color: turquoise;
+}
+
+
+.input3 h2{
+    color: rgb(20, 20, 19);
+    font-size: 30px;
+    margin-left: 10%;
+    font-family: cursive;
+    
+}
+.input3 input{
+    margin-left: 10%;
+    border-radius: 25px 10px;
+    padding: 1%;
+    width: 80%;
+    background-color:white;
+    border: 2;
+    border-color: turquoise;
+}
+
+
+
+
+.input4 h2{
+    color: rgb(20, 20, 19);
+    font-size: 30px;
+    margin-left: 10%;
+    font-family: cursive;
+    
+}
+.input4 input{
+    margin-left: 10%;
+    border-radius: 25px 10px;
+    padding: 1%;
+    width: 80%;
+    background-color: white;
+    border: 2;
+    border-color: turquoise;
+}
+
+
+.input5 h2{
+    color: rgb(20, 20, 20);
+    font-size: 30px;
+    margin-left: 10%;
+    font-family: cursive;
+    
+}
+.input5 select{
+    margin-left: 10%;
+    border-radius: 25px 10px;
+    padding: 1%;
+    width: 80%;
+    background-color: white;
+    border: 2;
+    border-color: turquoise;
+}
+.input6 h2{
+    color: rgb(12, 12, 11);
+    font-size: 30px;
+    margin-left: 10%;
+    font-family: cursive;
+    
+}
+.input6 h5{
+    
+    display: inline;
+    color: rgb(12, 12, 12);
+    font-family: cursive;
+    font-size: 30px;
+    padding: 1px;
+    
+}
+.input6 input{
+    margin-left: 10%;
+}
+.input7 h2{
+    color: rgb(14, 14, 13);
+    font-size: 30px;
+    margin-left: 10%;
+    font-family: cursive;
+    
+}
+.input7 select{
+    margin-left: 10%;
+    border-radius: 25px 10px;
+    padding: 1%;
+    width: 80%;
+    background-color: white;
+    border: 2;
+    border-color: turquoise;
+}
+
+.input8 h2{
+    color: rgb(12, 12, 12);
+    font-size: 30px;
+    margin-left: 10%;
+    font-family: cursive;
+    
+}
+.input8 input{
+    margin-left: 10%;
+    border-radius: 25px 10px;
+    padding: 1%;
+    width: 80%;
+    background-color:white;
+    border: 2;
+    border-color: turquoise;
+}
+
+.input9 h2{
+    color: rgb(20, 20, 20);
+    font-size: 30px;
+    margin-left: 10%;
+    font-family: cursive;
+    
+}
+.input9 input{
+    margin-left: 10%;
+    border-radius: 25px 10px;
+    padding: 1%;
+    width: 80%;
+    background-color:white;
+    border: 2;
+    border-color: turquoise;
+}
+
+
+.input10 h2{
+    color: rgb(12, 12, 12);
+    font-size: 30px;
+    margin-left: 10%;
+    font-family: cursive;
+    
+}
+.input10 input{
+    margin-left: 10%;
+    border-radius: 25px 10px;
+    padding: 1%;
+    width: 80%;
+    background-color:white;
+    border: 2;
+    border-color: turquoise;
+}
+.input11 h2{
+    color: rgb(20, 20, 20);
+    font-size: 30px;
+    margin-left: 10%;
+    font-family: cursive;
+    
+}
+.input11 textarea{
+    margin-left: 10%;
+    border-radius: 25px 10px;
+    padding: 1%;
+    width: 80%;
+    background-color:white;
+    border: 2;
+    border-color: turquoise;
+    height: 70px;
+}
+
+   
+.input12 input{
+    padding: 30px;
+    margin-left: 35%;
+    width: 30%;
+    color: rgb(10, 10, 10);
+    border-radius: 25px 10px;
+    border-color: turquoise;
+    margin-bottom: 1%;
+}
+
+.footer{
+    text-align: center;
+    background-color: rgb(31, 53, 48) ;
+    padding:10px 10px;
+    
+    
+    
+}
+.footer p{
+    font-weight: bold;
+    color: rgb(223, 193, 193);
+    text-transform: capitalize;
+    font-size: 18px;
+    
+}
+.input19 h2{
+    color: rgb(12, 12, 11);
+    font-size: 30px;
+    margin-left: 10%;
+    font-family: cursive;
+    
+}
+.input19 h5{
+    
+    display: inline;
+    color: rgb(12, 12, 12);
+    font-family: cursive;
+    font-size: 20px;
+    padding: 1px;
+    
+}
+.input19 input{
+    margin-left: 10%;
+}
+
+
+
+
+
+
+
+   
+   
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
